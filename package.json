@@ -1,0 +1,40 @@
+{
+  "name": "snacksense",
+  "version": "1.0.0",
+  "description": "A project to help track meals and suggest recipes for the weeks",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "server": "node server.mjs",
+    "dev:all": "concurrently \"npm run server\" \"npm run dev\"",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "jest"
+  },
+  "keywords": [
+    "meals",
+    "recipes",
+    "tracking"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "express": "^4.18.0",
+    "cors": "^2.8.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.0",
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^4.0.0",
+    "typescript": "^5.0.0",
+    "vite": "^5.0.0",
+    "tailwindcss": "^3.0.0",
+    "postcss": "^8.4.0",
+    "autoprefixer": "^10.4.0",
+    "ts-node": "^10.9.0",
+    "concurrently": "^8.0.0"
+  }
+}
